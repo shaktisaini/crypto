@@ -22,9 +22,7 @@
     "react-router-dom": "^6.3.0",
     "react-scripts": "5.0.1",
     "swiper": "^8.2.4",
-    "web-vitals": "^2.1.4",
-    "start": "react-scripts --max_old_space_size=4096 start",
- "build": "react-scripts --max_old_space_size=4096 build"
+    "web-vitals": "^2.1.4"
   },
   "scripts": {
     "start": "react-scripts start",
