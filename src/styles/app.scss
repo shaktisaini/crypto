@@ -1,0 +1,292 @@
+@font-face {
+    font-family: "lufgalight-webfont";
+    src: url("./../fonts/lufgalight-webfont.eot");
+    src: url("./../fonts/lufgalight-webfont.woff") format("woff"),
+        url("./../fonts/lufgalight-webfont.svg#filename") format("svg");
+}
+
+@font-face {
+    font-family: "lufgamedium-webfont";
+    src: url("./../fonts/lufgamedium-webfont.eot");
+    src: url("./../fonts/lufgamedium-webfont.woff") format("woff"),
+        url("./../fonts/lufgamedium-webfont.svg#filename") format("svg");
+}
+
+@font-face {
+    font-family: "lufgablack-webfont";
+    src: url("./../fonts/lufgablack-webfont.eot");
+    src: url("./../fonts/lufgablack-webfont.woff") format("woff"),
+        url("./../fonts/lufgablack-webfont.svg#filename") format("svg");
+}
+
+body {
+    margin: 0;
+    font-family: "lufgalight-webfont" !important;
+    ;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+        monospace;
+}
+
+a {
+    text-decoration: none;
+    color: white !important;
+}
+
+.MainDash {
+    font-family: "lufgalight-webfont" !important;
+}
+
+.right img {
+    width: 100%;
+}
+
+.rights img {
+    width: 100%;
+}
+
+.left {
+    margin-left: 3%;
+}
+
+.pad {
+    padding: 4%;
+    margin-left: 40px;
+}
+
+.topcircle {
+    position: absolute;
+    margin-top: 40px;
+    padding: 4%;
+}
+
+.aboutimages {
+    margin: 5%;
+}
+
+.margintop {
+    padding: 0 0 0 4%;
+}
+
+.box {
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 34px;
+    padding: 5%;
+}
+
+.swiper {
+    width: 90%;
+    height: 100%;
+}
+
+.swiperslide {
+    font-size: 18px;
+    color: #fff;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 40px 60px;
+}
+
+.parallaxbg {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 130%;
+    height: 100%;
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-position: center;
+}
+
+.swiper-slide .title {
+    font-size: 41px;
+    font-weight: 300;
+}
+
+.swiper-slide .subtitle {
+    font-size: 21px;
+}
+
+.swiper-slide .text {
+    font-size: 14px;
+    max-width: 400px;
+    line-height: 1.3;
+}
+
+.carousel-container {
+    padding: 3% 0 10% 0%;
+}
+
+@media (min-width: 640px) {
+    .aboutimages {
+        margin: 0;
+    }
+
+    .right {
+        float: right;
+        width: 50%;
+        padding-left: 3%;
+    }
+
+    .left {
+        margin-left: 0;
+    }
+
+    .topcircle {
+        padding: 1%;
+    }
+
+    .imagesizes img {
+        width: 55% !important;
+    }
+
+    .pad {
+        margin-left: 10px;
+    }
+
+    .margintop {
+        padding: 0;
+    }
+
+    .MainDash {
+        margin-left: 240px;
+    }
+}
+
+@media (min-width: 1000px) {
+    .aboutimages {
+        float: right;
+        margin-right: 5%;
+    }
+
+    .topcircle {
+        padding: 0;
+    }
+
+    .pad {
+        padding: 0;
+        margin-left: 0px;
+    }
+
+    .rights {
+        position: absolute;
+        right: 5%;
+    }
+
+    .carousel-container {
+        padding: 3% 0 7% 0%;
+    }
+}
+
+@media (min-width: 1200px) {
+    .right {
+        float: right;
+        width: 35%;
+    }
+
+    .aboutimages {
+        margin-right: 15%;
+    }
+
+    .topcircle {
+        padding: 1.5%;
+    }
+
+    .pad {
+        margin-left: 15px;
+    }
+
+    .About {
+        margin-top: 3%;
+    }
+
+    .margintop {
+        margin-top: 5%;
+    }
+}
+
+@media (min-width: 1300px) {
+    .carousel-container {
+        padding: 3% 0 5% 0%;
+    }
+}
+
+.expired-notice {
+    text-align: center;
+    padding: 2rem;
+    border: 1px solid #ebebeb;
+    border-radius: 0.25rem;
+    margin: 0.5rem;
+}
+
+.expired-notice>span {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: red;
+}
+
+.expired-notice>p {
+    font-size: 1.5rem;
+}
+
+.show-counter {
+    padding: 0.5rem;
+}
+
+.show-counter .countdown-link {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-weight: 700;
+    font-size: 1.25rem;
+    line-height: 1.75rem;
+    padding: 0.5rem;
+    border: 1px solid #ce1111;
+    border-radius: 1.5rem;
+    text-decoration: none;
+    color: #000;
+}
+
+.show-counter .countdown {
+    line-height: 1.25rem;
+    padding: 0 0.75rem 0 0.75rem;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.show-counter .countdown.danger {
+    color: #ff0000;
+}
+
+.show-counter .countdown>p {
+    margin: 0;
+    color: #909090;
+}
+
+.show-counter .countdown>span {
+    text-transform: uppercase;
+    font-size: 0.75rem;
+    color: #909090;
+    line-height: 1rem;
+}
+
+.prof-pic {
+    position: relative;
+}
+
+.prof-pic span {
+    color: #ffffff;
+    position: absolute;
+    bottom: -21px;
+    font-weight: bolder !important;
+    right: -4px;
+    z-index: 99;
+    cursor: pointer;
+    font-size: 24px;
+}
